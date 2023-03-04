@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/tvRsatu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="Creat Your Profile Account"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/edtRsatu"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/rectengel"
+        android:elevation="10dp"
+        android:hint="Frist Name"
+        android:paddingStart="16dp"
+        app:layout_constraintStart_toStartOf="@+id/edtRtiga"
+        app:layout_constraintTop_toBottomOf="@+id/tvRsatu" />
+
+    <EditText
+        android:id="@+id/edtRdua"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/rectengel"
+        android:elevation="10dp"
+        android:hint="Last Name"
+        android:paddingStart="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/edtRtiga"
+        app:layout_constraintTop_toBottomOf="@+id/tvRsatu" />
+
+    <EditText
+        android:id="@+id/edtRtiga"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectengel"
+        android:elevation="10dp"
+        android:hint="Addres"
+        android:paddingStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtRdua" />
+
+    <EditText
+        android:id="@+id/edtRempat"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectengel"
+        android:elevation="10dp"
+        android:hint="Country"
+        android:paddingStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtRtiga" />
+
+    <EditText
+        android:id="@+id/edtRlima"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectengel"
+        android:elevation="10dp"
+        android:hint="Email"
+        android:paddingStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtRempat" />
+
+    <EditText
+        android:id="@+id/edtRenam"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectengel"
+        android:elevation="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtRlima" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectengel"
+        android:elevation="10dp"
+        android:hint="Create Account"
+        android:paddingStart="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/edtRenam"
+        app:layout_constraintStart_toStartOf="@+id/edtRenam"
+        app:layout_constraintTop_toBottomOf="@id/edtRenam" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

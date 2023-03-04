@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Fligthsscanner</string>
+    <string-array name="Country">
+        <item>Select</item>
+        <item>Jakarta(CGK)</item>
+        <item>Bandung(BDO)</item>
+        <item>London City(LCY)</item>
+        <item>Seoul Gimpo(GMP)</item>
+        <item>Dubai(DXB)</item>
+        <item>Tokyo Narita(NRT)</item>
+        <item>Singapore Changi(SIN)</item>
+        <item>Zurich(ZRH)</item>
+    </string-array>
+
+    <string-array name="Type">
+        <item>Cabin class</item>
+        <item>Ekonomi</item>
+        <item>Bisnis</item>
+        <item>First</item>
+    </string-array>
+
+    <integer-array name="FlImg">
+        <item>@drawable/garuda</item>
+        <item>@drawable/airasia</item>
+        <item>@drawable/british</item>
+        <item>@drawable/emirates</item>
+        <item>@drawable/japan</item>
+        <item>@drawable/korean</item>
+        <item>@drawable/lionair</item>
+        <item>@drawable/malaysia</item>
+        <item>@drawable/qatar</item>
+        <item>@drawable/singapore</item>
+        <item>@drawable/swiss</item>
+    </integer-array>
+
+    <string-array name="FlName">
+        <item>Garuda Indonesia</item>
+        <item>Air Asia</item>
+        <item>British Airways</item>
+        <item>Emirates</item>
+        <item>Japan Airlines</item>
+        <item>Korean Air</item>
+        <item>Lion Air</item>
+        <item>Malaysia Airlines</item>
+        <item>Qatar Airways</item>
+        <item>Singapore Airlines</item>
+        <item>Swiss</item>
+    </string-array>
+
+    <string-array name="FlPrc">
+        <item>from 1.999.912</item>
+        <item>from 950.000</item>
+        <item>from 1.500.000</item>
+        <item>from 1.600.000</item>
+        <item>from 980.000</item>
+        <item>from 2.000.000</item>
+        <item>from 2.600.000</item>
+        <item>from 2.800.000</item>
+        <item>from 2.900.000</item>
+        <item>from 3.000.000</item>
+        <item>from 3.200.000</item>
+    </string-array>
+
+    <integer-array name="detailimg">
+        <item>@drawable/indo</item>
+        <item>@drawable/asa</item>
+        <item>@drawable/london</item>
+        <item>@drawable/dubai</item>
+        <item>@drawable/osaka</item>
+        <item>@drawable/seoul</item>
+        <item>@drawable/lr</item>
+        <item>@drawable/malay</item>
+        <item>@drawable/qtr</item>
+        <item>@drawable/sg</item>
+        <item>@drawable/sw</item>
+    </integer-array>
+
+    <integer-array name="harga">
+        <item>1999912</item>
+        <item>950000</item>
+        <item>1500000</item>
+        <item>1600000</item>
+        <item>980000</item>
+        <item>2000000</item>
+        <item>2600000</item>
+        <item>2800000</item>
+        <item>2900000</item>
+        <item>3000000</item>
+        <item>3200000</item>
+    </integer-array>
+
+    <string-array name="FlDescription">
+        <item>Indonesian civil aviation has its origins in an initiative from the Indonesian Airforce when its aircraft, called Indonesian Airways, was rented to the Burmese government on 26 January 1949. The role of Indonesian Airways ended following the Dutch–Indonesian Round Table Conference the same year,leading to all the aircraft returning to the Indonesian Airforce.</item>
+        <item>Established in 1993 and started operations on 18 Nov 1996, AirAsia is Asias largest low fare, no frills airline and it operates scheduled domestic and international flights.
+            AirAsia pioneered low cost travelling in Asia. It is also the first airline in the region to implement fully ticketless travel. It has implemented allocated seatings across all its flights as of 5 Feb 2009.</item>
+        <item>British Airways exists today because of you. This is why we want to make every trip you take with us a great experience. Our entire team is here to provide exceptional service – from our signature warm welcome to ensuring that you arrive at your destination safely. As the UKs flag carrier, we have a responsibility to help create a sustainable future for our planet, and were on a mission to be carbon net zero by 2050.</item>
+        <item>At Emirates, were committed to providing you with an unparalleled journey through our highly trained, professional cabin crew. New recruits undergo an intense seven and a half weeks of training in the highest standards of safety and service delivery in our state-of-the-art facility in Dubai. The training covers both theoretical and practical aspects, with the latter taking place in full motion simulators of all of the aircrafts in our fleet.
+            And our ongoing training for all cabin crew members ensures you always receive unrivalled care on board.</item>
+        <item>Thank you very much for your continued support. For more than 70 years since its founding in 1951, the JAL Group has built a domestic and international air transport network as a social infrastructure and lifeline. In light of the significant changes in the business environment caused by the novel coronavirus, we are making steady progress in accordance with our medium-term management plan for fiscal years 2021 to 2025, incorporating our determination in JAL Vision 2030 to create a safe and secure society and a sustainable future.</item>
+        <item>KOREAN AIR LINES Co., Ltd. engages in operating scheduled air transportation services. It operates through the following business divisions: Air Transportation, Air Space, and Others. It provides air transportation services such as passenger, cargo, building lease, maintenance, and training services. In addition, It also supplies aerospace, catering, in-flight sales, and Limousines. The company was founded on June 19, 1962 and is headquartered in Seoul, South Korea.</item>
+        <item>Lion Air was legally established on 15 November 1999 and began operating the first time on June 30, 2000 by flying from Jakarta to Pontianak using aircraft type Boeing 737-200 which at that time only 2 units.
+            Headquartered in Lion Air Tower, Jl. Gajah Mada No. 7 in the area of ​​Central Jakarta, PT. Lion Mentari Airlines, or commonly known as Lion Air is the low-cost airlines or (Low Cost Carrier) with motto "We Make People Fly". Through this, Lion Air were trying to convince everyone that anyone can fly with Lion Air and also always prioritize the safety, security, and quality.</item>
+        <item>As a member of Enrich, Malaysia Airlines loyalty programme, you earn both Enrich Miles and Elite Miles when you fly with Malaysia Airlines or any oneworld partner airline aboard eligible flights.
+            Your Enrich Miles can be redeemed across the entire oneworld network, while Elite Miles are used to maintain or upgrade your Enrich tier status.
+            Top tier cardholders receive special oneworld benefits when flying on any oneworld member airline.
+            To learn more about your Enrich tier and the perks of flying within the oneworld family, visit Malaysia Airlines website.</item>
+        <item>Qatar Airways Group Chief Executive, His Excellency Mr. Akbar Al Baker, is one of the most recognisable figures in the global aviation industry.
+            His vision and commitment enabled the ground-breaking development of Qatar Airways from a small regional carrier into one of the worlds leading global airlines in the span of just 20 years. </item>
+        <item>Stellar service is just one of a host of reasons that makes Singapore Airlines a world-class travel brand. The airline is also famous for luxurious flight experiences across cabin classes, with state-of-the-art entertainment options, spacious cabins and a commitment to making flying a personal experience. The airlines international culinary panel—which comprises eight chefs from all around the globe—are constantly whipping up new dishes to delight the taste buds of passengers onboard.</item>
+        <item>Swiss International Air Lines (SWISS) is Switzerlands largest air carrier. With one of Europes most advanced and carbon-efficient aircraft fleets, SWISS is a premium airline that provides direct flights from Zurich and Geneva to keep Switzerland connected with Europe and the world. Its Swiss WorldCargo division offers an extensive range of airport-to-airport airfreight services for high-value, time-critical and care-intensive consignments.</item>
+    </string-array>
+
+</resources>
